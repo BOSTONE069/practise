@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    width: 90vw;
+}
+.container{
+    width: 1500px;
+    height: 800px;
+}
+header{
+    top: 0;
+    background-color: #e9e8e6;
+    color: #222222;
+    font-size: 14px;
+    width: 2000px;
+    height: 80px;
+    position: relative;
+}
+.header_right{
+    align-items: right;
+    text-align: right;
+    word-spacing: 10px;
+    width: 1200px;
+    height: 30px;
+   
+}
+.header_left{
+    align-items: left;
+    text-align: left;
+    border-top-width: 0px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-left-width: 0px;
+    height: 30px;
+    width: 500px;
+}
+li{
+    text-decoration: none;
+    display: inline;
+}
+a:link, a:visited{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.about{
+    align-items: center;
+    text-align: center;
+    width: 1800px;
+    height: 70px;
+    padding-bottom: 20px;
+}
+.wrapper{
+    width: 100;
+    column-count: 2;
+}
+h1{
+    padding-bottom: 20px;
+}
+#image{
+    align-items: center;
+    padding-left: 550px;
+    padding-top: 20px;
+    height:500px;
+    width: 25%;
+}
+.personal-details{
+    padding-top: 20px;
+    width: 75%;
+    height: 150px;
+    
+}
+.soft-skills{
+    width: 75%;
+    height: 150px;
+    padding-top: 20px;
+}
+hr{
+    color: 0.5px, lightgray;
+    margin-top: 10px;
+    width: 60%;
+}
+.hire-btn{
+    padding-top: 50px;
+}
+footer{
+    background: #e9e8e6;
+    padding: 10px 10px;
+    color: #222222;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+}
